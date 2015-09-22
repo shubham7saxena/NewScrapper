@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> NewScrapper </title>
+<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+<link href="assets/css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="assets/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="banner">
+		<div class="container">
+			<div class="title">
+				<h2>NewScrapper</h2>
+				<span class="byline">Your one spot for all day feed</span>
+			 </div>
+		</div>
+	</div>
+	<div id="extra" class="container">
+		<div class="title">
+			<h2>{{ dtme }}</h2>
+		</div>
+		<div id="three-column">
+			<div class="boxA">
+				<div class="box"> <h3>{{ data[0][0] }}</h3>
+					<p>{{ data[0][2].text }}</p>
+					<br>
+					<a href = "{{ data[0][1] }}" target = "_blank"><p>Read More...</p></a>
+				</div>
+			</div>
+			<div class="boxA">
+				<div class="box"> <h3>{{ data[1][0] }}</h3>
+					<p>{{ data[1][2].text }}</p>
+					<br>
+					<a href = "{{ data[1][1] }}" target = "_blank"><p>Read More...</p></a>
+				</div>
+			</div>
+			<div class="boxA">
+				<div class="box"> <h3>{{ data[2][0] }}</h3>
+					<p>{{ data[2][2].text }}</p>
+					<br>
+					<a href = "{{ data[2][1] }}" target = "_blank"><p>Read More...</p></a>
+				</div>
+			</div>
+		</div>
+		<div id="three-column">
+			<div class="boxA">
+				<div class="box"> <h3>{{ data[3][0] }}</h3>
+					<p>{{ data[3][2].text }}</p>
+					<br>
+					<a href = "{{ data[3][1] }}" target = "_blank"><p>Read More...</p></a>
+				</div>
+			</div>
+			<div class="boxA">
+				<div class="box"> <h3>{{ data[4][0] }}</h3>
+					<p>{{ data[4][2].text }}</p>
+					<br>
+					<a href = "{{ data[4][1] }}" target = "_blank"><p>Read More...</p></a>
+				</div>
+			</div>
+			<div class="boxA">
+				<div class="box"> <h3>{{ data[5][0] }}</h3>
+					<p>{{ data[5][2].text }}</p>
+					<br>
+					<a href = "{{ data[5][1] }}" target = "_blank"><p>Read More...</p></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>Developed by <a href="https://www.facebook.com/shubham.saxena.3760" target = "_blank">SHUBHAM SAXENA </a></p>
+</div>
+</body>
+</html>
